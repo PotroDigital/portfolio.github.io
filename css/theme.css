@@ -1,0 +1,12 @@
+:root {
+    /* Color blanco 60% */
+    --blanco-estrella: #F2F2EC;
+
+    /* Color gris 30% */
+    --gris: #303030;
+
+    /* Color rojo 10% */
+    --rojo-veneciano-700: #c21313;
+    --rojo-veneciano-800: #a01414;
+    --rojo-veneciano-900: #711;
+}
