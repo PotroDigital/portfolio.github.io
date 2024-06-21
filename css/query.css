@@ -1,0 +1,13 @@
+/* Bg Header */
+
+@media (max-width: 768px) {
+    .header {
+        background-image: linear-gradient(#0006, #0006), url("../resources/bg_small.jpg");
+    }
+}
+
+@media (min-width: 769px) {
+    .header {
+        background-image: linear-gradient(#0006, #0006), url("../resources/bg.jpg");
+    }
+}
