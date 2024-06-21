@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -122,11 +123,12 @@ img {
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .i {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .i::before {
@@ -140,11 +142,12 @@ img {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-family: 'Source Code Pro', 'Montserrat', sans-serif;
     line-height: 58px;
     word-spacing: 1px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 
@@ -170,5 +173,63 @@ img {
 /* Services */
 
 .service {
-    
+    width: 100%;
+}
+
+.container_services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service {
+    position: relative;
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+}
+
+.service::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 80%;
+    background-color: var(--rojo-veneciano-700);
+}
+
+.service::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 80%;
+    background-color: var(--rojo-veneciano-700);
+}
+
+.service_title {
+    font-size: 1.7rem;
+    margin-bottom: 6px;
+}
+
+.service_text {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.service .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+
+.service .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
