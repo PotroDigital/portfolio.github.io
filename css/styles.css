@@ -302,14 +302,24 @@ img {
 
 /* Social Networks */
 
+.social_networks .title {
+    margin-bottom: 25px;
+}
 
 .container_social_networks {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: row wrap;
+    gap: 25px;
 }
 
 .container_social_networks a {
-    
+    color: var(--gris);
+    scale: 2;
+    transition: color .2s ease;
+}
+
+.container_social_networks a:hover {
+    color: var(--rojo-veneciano-800);
 }
