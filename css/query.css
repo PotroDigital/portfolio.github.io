@@ -8,6 +8,42 @@
 
 @media (min-width: 769px) {
     .header {
-        background-image: linear-gradient(#0006, #0006), url("../resources/bg.jpg");
+        background-image: linear-gradient(#0006, #0006), url("../resources/bg_medium.jpg");
+    }
+
+    .sub_header {
+        width: 100%;
+        flex-direction: row;
+        padding: 10px 60px;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        width: auto;
+    }
+
+    .navbar .nav_menu {
+        background-color: transparent;
+    }
+
+    .nav_menu a:last-child::before {
+        content: '';
+        width: 0;
+        height: 0;
+    }
+
+    .title_start {
+        height: 100%;
+        padding: 0px 40px;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 3.7rem;
+    }
+
+    .title_start img {
+        width: 500px;
+        height: 500px;
     }
 }
