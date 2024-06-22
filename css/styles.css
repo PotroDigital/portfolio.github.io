@@ -120,7 +120,7 @@ img {
     max-width: 900px;
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -266,6 +266,7 @@ img {
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    cursor: pointer;
 }
 
 .card:first-child {
@@ -322,4 +323,26 @@ img {
 
 .container_social_networks a:hover {
     color: var(--rojo-veneciano-800);
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    position: relative;
+}
+
+.footer svg {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 10px;
+}
+
+.footer p {
+    background-color: var(--gris);
+    color: var(--blanco-estrella);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 0 20px 10px;
 }
