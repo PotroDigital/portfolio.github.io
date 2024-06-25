@@ -6,6 +6,38 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    
+    .navbar .nav_menu {
+        gap: 10px;
+    }
+
+    .nav_menu a:before {
+        display: none;
+    }
+
+    .title_start {
+        height: 100%;
+    }
+
+    .footer svg {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+    }
+
+    .title_start img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .social_networks .title {
+        font-size: 2.3rem;
+    }
+}
+
 @media (min-width: 769px) {
     .header {
         background-image: linear-gradient(#0006, #0006), url("../resources/bg_medium.jpg");
